@@ -36,3 +36,8 @@ Branch jekyll-now set up to track remote branch master from jekyll-now.
 - merge in jekyll-now
 git checkout master
 git merge --squash jekyll-now # don't really want detailed history from jekyll-now
+
+
+git remote add jekyll-bootstrap https://github.com/dougbeal/jekyll-bootstrap.git
+git fetch jekyll-bootstrap
+git merge --squash jekyll-bootstrap
