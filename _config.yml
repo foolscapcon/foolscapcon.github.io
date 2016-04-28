@@ -17,6 +17,11 @@ author :
   twitter : username
   feedburner : feedname
 
+blog :
+  logo : images/logo-full-3col-dark-0300x0100.png
+  minilogo : images/logo-init-3col-0040x0050.png
+  background : images/Foolscap-poster-800px.png
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -25,7 +30,9 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://foolscapcon.github.io
+#url:  http://127.0.0.1:4000
+production_url : http://127.0.0.1:4000
+#production_url : http://ghpages-test.foolscap.org
 
 gems: ["jekyll-sitemap"]
 
